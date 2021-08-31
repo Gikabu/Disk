@@ -377,28 +377,7 @@ Disk takes out a lot of the tedious handy work required in coding data to the de
 ```swift
 try Disk.clear(.temporary)
 ```
-Disk is also [significantly faster than alternative persistence solutions like `NSKeyedArchiver`](https://twitter.com/JStheoriginal/status/924810983360434176), since it works directly with the file system.
-Best of all, Disk is thorough when it comes to throwing errors, ensuring that you understand why a problem occurs when it does.
-
-## Documentation
-Option + click on any of Disk's methods for detailed documentation.
-<img src="https://user-images.githubusercontent.com/7799382/29153708-e49f0842-7d43-11e7-8eb3-4b2d13b56b70.png" alt="documentation">
-
-## Apps Using Disk
-
-* [FM Player: Classic DX Synths](https://audiokitpro.com/fm-player-classic-dx-released/)
-* [AudioKit Synth One](https://audiokitpro.com/audiokit-synth-one/)
-* [BB Links - Your Coaching Links](http://www.bblinksapp.com/)
-* [Design+Code Sample App](https://designcode.io/)
 
 ## License
 
 Disk uses the MIT license. Please file an issue if you have any questions or if you'd like to share how you're using Disk.
-
-## Contribute
-
-Please feel free to create issues for feature requests or send pull requests of any additions you think would complement Disk and its philosophy.
-
-## Questions?
-
-Contact me by email <a href="mailto:hello@saoudmr.com">hello@saoudmr.com</a>, or by twitter <a href="https://twitter.com/sdrzn" target="_blank">@sdrzn</a>. Please create an <a href="https://github.com/saoudrizwan/Disk/issues">issue</a> if you come across a bug or would like a feature to be added.
